@@ -1,0 +1,44 @@
+@import "../styles";
+
+.header {
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  height: 12vh;
+  width: 100vw;
+  background: $header-background-color;
+
+
+  img {
+    height: 9vh;
+  }
+
+  .navigation-bar {
+
+    a {
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  top: 12vh;
+  padding-left: 2vw;
+}
+
+.active-link {
+  color: #0e64ac !important;
+  text-decoration: underline !important;
+}
+
+#logout {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
